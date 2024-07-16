@@ -12,7 +12,7 @@ from src.feed import *
 
 
 ## 飞书api
-WEBHOOK="https://open.feishu.cn/open-apis/bot/v2/hook/6b145d96-b3e1-4542-8e07-6ba92c38d932"
+WEBHOOK="xxxx"
 
 ## 项目内容示例模板
 repo_templete =  {

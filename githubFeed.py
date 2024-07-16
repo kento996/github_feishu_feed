@@ -46,7 +46,7 @@ cursor = db.cursor()
 # 此处有时报error-IncompleteRead(122967 bytes read, 1854 more expected)，<urlopen error [Errno 2] No such file or directory>，<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
 while True:
     try:
-        d = feedparser.parse('https://github.com/ourren.private.atom?token=ACOQ5NCUEGTPHZCZ567LFFN6Z32QA')
+        d = feedparser.parse('xxxx')
     except Exception as e:
         print("\nerror:", e)
         print("[{}]发生错误，10秒钟后将重新进行解析".format(get_time()))
