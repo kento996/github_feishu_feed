@@ -1,0 +1,21 @@
+[MySQL]
+#数据库地址
+hostname = 127.0.0.1
+#数据库端口
+port = 3306
+#数据库名称
+database = rss
+#用户名
+username = root
+#密码
+password = 
+
+[Redis]
+#地址
+addr = localhost
+#端口
+port = 6379
+#密码
+password = 
+#数据库 0表示默认
+database = 0
